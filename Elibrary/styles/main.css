@@ -1,0 +1,231 @@
+@CHARSET "utf-8";
+body {
+	background:#f2f2f2;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 13px;
+	color: #000000;
+	background: url('images/librarian.jpg') no-repeat fixed;
+	background: url('images/admin1.jpg') no-repeat fixed;
+	background: url('images/admin2.jpg') no-repeat fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    background-position: 0 100px;
+}
+
+
+
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	color: #7D7764;
+	position: relative;
+}
+
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	color: #5BA689;
+	position: relative;
+}
+
+#header{
+        background: #f2f2f2;
+        top: 0;
+        height: 30 px;
+        left: 0;
+        position: absolute;
+        right: 0;
+    }
+#header h1 {
+	text-align: center;
+}
+
+#menu-wrapper {
+	
+	height: 52px;
+	margin-top: 5em;
+	background: #737CA1;
+	
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+	
+	
+	
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 30px;
+	line-height: 52px;
+	border: none;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #ffffff;
+}
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=password]{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+#form1 {
+    
+    position: relative;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+}
+.beta td, 
+.beta th {
+    
+    position: relative;
+    margin: 100px 0;
+    border-collapse: collapse;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+/*Code goes here*/
+}
+
+body {margin: 0;}
+
+.topnav{
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 1;
+    overflow: hidden;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+div .login{
+
+
+margin: 30px 0;
+background: #ff8040;
+padding: 20px;
+clear: both;
+
+}
+#content{
+	margin-top: 30px;
+	
+	padding-top: 30px;
+	
+}
+.l{
+color: #ffffff;
+
+}
+
+
+	
+	
+	
