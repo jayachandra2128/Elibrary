@@ -1,1 +1,2 @@
 # Elibrary
+Developed web application which mainly focuses on Management of library. In this application there are two types of users- Admin and Librarian. Admin can add/view/edit/delete librarian and Librarian can add books, view books, issue books to students, view issued books, return books. Librarian can also track details about no of books present in library, no of books issued and which student has which book. This application helps in effective management of Library by keeping track of books.
